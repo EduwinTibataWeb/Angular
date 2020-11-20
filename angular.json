@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/styles.css"
             ],
             "scripts": []
           },
@@ -117,8 +117,16 @@
               "devServerTarget": "WebEcupaz:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "WebEcupaz"
+    }
+  },
+  "defaultProject": "WebEcupaz",
+  "cli": {
+    "analytics": "a24eb0d3-b4de-4131-aa97-6a54a4d1813d"
+  }
 }
