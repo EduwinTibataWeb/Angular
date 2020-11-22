@@ -98,7 +98,7 @@ main section{
 	grid-column: 2;
 }
 .nosotros__caption_uno{
-	background-image: url('/assets/img/fondo_gris.jpg');
+	background-image: url('./assets/img/fondo_gris.jpg');
 	padding: 2.5em 1em;
 	display: flex;
 }
@@ -140,7 +140,7 @@ main section{
 	color: #606060;
 }
 .nosotros_botones{
-	background-image: url('/assets/img/fondo_gris.jpg');
+	background-image: url('./assets/img/fondo_gris.jpg');
 }
 .cont__botones{
 	list-style: none;
