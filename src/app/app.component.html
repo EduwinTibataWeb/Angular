@@ -1,11 +1,9 @@
 <header class="menu">
-  <div class="menu__logo">
-    <a href="">
+  <div class="menu__logo" a [routerLink]="['/Inicio']">
       <img src="./assets/img/Logo_ECUPAZ_Horizontal.png" alt="">
-    </a>
   </div>
-  <div class="menu__icom">
-    <div class="menu__icom_content">
+  <div class="menu__icon">
+    <div class="menu__icon_content">
       <div></div>
       <div></div>
       <div></div>
@@ -13,13 +11,13 @@
   </div>
   <ul class="menu__items">
     <li a [routerLink]="['/Inicio']">ECUPAZ</li>
-    <li><a href="">Nuestros Valores</a></li>
-    <li> <a href="">Equipo</a></li>
+    <li><a href="#index">Nuestros Valores</a></li>
+    <li> <a href="#">Equipo</a></li>
     <li a [routerLink]="['/Nuestro_Trabajo']">Nuestro Trabajo</li>
     <li a [routerLink]="['/Experiencias']">Experiencias</li>
-    <li><a href="">Nuestros Aliados</a> </li>
+    <li><a href="#">Nuestros Aliados</a> </li>
     <li a [routerLink]="['/Recursos']">Recursos</li>
-    <li><a href="">Apoyanos</a></li>
+    <li><a href="#">Apoyanos</a></li>
     <li a [routerLink]="['/Contactanos']">Contácto</li>
   </ul>
 </header>
