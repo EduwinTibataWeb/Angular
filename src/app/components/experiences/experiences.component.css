@@ -1,0 +1,134 @@
+.slideshow{
+	width: 100%;
+	position: relative;
+	top: 0;
+    height: 100vh;
+    max-height: 800px;
+	overflow: hidden;
+	background-color: rgb(0, 162, 255);
+}
+.slider ul, .slider li{
+	width: 100%;
+	height: 100%;
+}
+.img_slider{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	object-fit: cover;
+}
+.slider li{
+	width: 100%;
+	overflow: hidden;
+}
+.caption{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: #ffffff;
+	display:flex;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: center;
+	flex-wrap: wrap;
+    flex-direction: column;
+}
+.img_text{
+    width: 200px;
+}
+.caption h2{
+    font-size: 4rem;
+    text-shadow: 2px 0 #6D9EB3;
+}
+.cont_slider_text{
+    z-index: 5;
+    padding: 3em;
+    align-items: flex-start;
+}
+ol.pagination{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+ol.pagination li{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.left,
+.right{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: hsla(0,0%,100%,1.00);
+	font-size: 35px;
+	cursor: pointer;
+	z-index: 10;
+}
+.left{
+	left: 0px;
+	padding: 0 80px;
+}
+.right{
+	right: 0px;
+	padding: 0 80px;
+	transition: 1s;
+}
+.caption_dos_texto{
+	background: #fff;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, .7);
+    margin-bottom: 2em;
+
+}
+#titulo_experiencias{
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+	z-index: 5;
+    padding: 1em 2em;
+    color: #6D9CB1;
+}
+.caption_dos_texto p{
+	padding: 3em 4em;
+	color: #606060;
+	z-index: 5;
+    background: #fff;
+}
+.borde__azul{
+	position: absolute;
+	border: 8px solid #6D9EB3;
+	z-index: 0;
+	left: -15px;
+	bottom: 15px;
+	width: 100%;
+	height: 100%;
+}
+@media screen and (max-width: 650px){
+    .caption h2{
+        font-size: 2em;
+    }
+    .img_text{
+        width: 100px;
+    }
+}

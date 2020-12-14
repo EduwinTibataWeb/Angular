@@ -95,6 +95,10 @@ body{
     background-color: #6D9EB3;
     transition: all .3s ease-out;
 }
+footer{
+    padding: 1em 2em;
+    background-color: #6D9EB3;
+}
 @media screen and (max-width: 1000px) {
     .menu__logo{
         height: 100px;

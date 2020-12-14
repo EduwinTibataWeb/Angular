@@ -1,0 +1,75 @@
+.title{
+    font-size: 3em;
+    text-align: center;
+    padding: 1em;
+    color: #509EB3;
+}
+.items-recursos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.ir-pdf {
+    width: 100%;
+    height: 300px;
+    position: relative; }
+    .ir-pdf img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      z-index: 1; }
+    .ir-pdf figcaption {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 5px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      background-color: rgba(61, 176, 202, 0.55);
+      color: #fff;
+      overflow: hidden;
+      -webkit-transition: all .3s ease-out;
+      -o-transition: all .3s ease-out;
+      transition: all .3s ease-out;
+      overflow: hidden; }
+      .ir-pdf figcaption:hover {
+        background-color: rgba(61, 176, 202, 0.85); }
+        .ir-pdf figcaption:hover i {
+          -webkit-transform: translateY(0px);
+          -ms-transform: translateY(0px);
+          transform: translateY(0px);
+          opacity: 1; }
+      .ir-pdf figcaption h3 {
+        text-align: center; }
+      .ir-pdf figcaption i {
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px);
+        opacity: 0;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        font-size: 2em;
+        margin-top: 1em;
+    }
+      .ir-pdf figcaption a {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 100%;
+        height: 100%; }

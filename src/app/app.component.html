@@ -11,14 +11,17 @@
   </div>
   <ul class="menu__items">
     <li a [routerLink]="['/Inicio']">ECUPAZ</li>
-    <li><a href="#index">Nuestros Valores</a></li>
-    <li> <a href="#">Equipo</a></li>
+    <li a [routerLink]="['/Inicio']"><a href="#valores">Nuestros Valores</a></li>
+    <li a [routerLink]="['/Inicio']"><a href="#equipo">Equipo</a></li>
     <li a [routerLink]="['/Nuestro_Trabajo']">Nuestro Trabajo</li>
     <li a [routerLink]="['/Experiencias']">Experiencias</li>
-    <li><a href="#">Nuestros Aliados</a> </li>
+    <li a [routerLink]="['/Inicio']"><a href="#aliados">Nuestros Aliados</a> </li>
     <li a [routerLink]="['/Recursos']">Recursos</li>
-    <li><a href="#">Apoyanos</a></li>
+    <li><a href="https://www.paypal.com/co/webapps/mpp/home" target="_blank" >Apoyanos</a></li>
     <li a [routerLink]="['/Contactanos']">Contácto</li>
   </ul>
 </header>
 <router-outlet></router-outlet>
+<footer>
+    <p>Copyright&copy; Todos los derechos reservados - Ecupaz.com</p>
+</footer>
