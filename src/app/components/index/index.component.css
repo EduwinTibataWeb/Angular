@@ -585,7 +585,17 @@ main section{
 	}
 	.con_text_modal{
 		height: 100%;
+		width: 90%;
+		padding: 0;
+		margin-top: 1em;
 	}
+	.con_text_modal p{
+		padding: 1em;
+		text-align: left;
+	}
+	.modal_img{
+		margin-top: 1em;
+	} 
 	.cont_modal{
 		overflow: scroll;
 		max-height: 90%;
@@ -593,5 +603,14 @@ main section{
 	#modal__boton {
 		top: 2%;
 		right: 2%;
+	}
+	.cont_all_modal{
+		padding: 0;
+	}
+	.equipo__cara_b{
+		overflow: scroll;
+	}
+	.equipo__card_content{
+		width: 200%;
 	}
 }
