@@ -26,7 +26,7 @@ export class ExperiencesComponent implements OnInit {
       $('.slider li:first').show();
       $('.pagination li:first').css({'background-color': '#6D9EB3'});
       $('.pagination li').click(pagination);
-      $('.right').click(nextSlider);
+      $('.right').click(nextSlider2);
       $('.left').click(prevSlider);
       $('.item_experiencia:nth-child(2)').hide();
       function experiencias(cont){
@@ -50,7 +50,7 @@ export class ExperiencesComponent implements OnInit {
         imgPos = numeroPagina;
         experiencias(imgPos);
       }
-      function nextSlider(){
+      function nextSlider2(){
         if(imgPos >= imgItems ){
           imgPos = 1;
         }else{

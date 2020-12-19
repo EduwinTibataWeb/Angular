@@ -1,6 +1,5 @@
 .ir-arriba { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 50px; height: 50px; background: #6D9EB3; color: #FFFFFF; position: fixed; bottom: 20px; right: 20px; z-index: 10; cursor: pointer; }
 .trabajo{
-    background-image: url(/assets/img/foto\ 7a\ 2.jpeg);
     background-position: center;
     background-size: cover; 
     padding: 2em;
@@ -161,9 +160,7 @@
     padding-bottom: .5em;
     font-size: 1.1em;
 }
-.fondo{
-    background-image: url('https://media.istockphoto.com/photos/blank-recycled-paper-background-picture-id173931479?k=6&m=173931479&s=170667a&w=0&h=8HKzZpcuGPU7JSzsiRGV_PBoUg9SB4DOq2jFrBUT4FA=');
-}
+
 .row-reverse{
     flex-direction: row-reverse;
 }

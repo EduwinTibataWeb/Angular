@@ -83,11 +83,9 @@ ol.pagination li{
 main{
 	display: flex;
 	justify-content: center;
-	padding-top: 1em;
 }
 main section{
 	width: 100%;
-	max-width: 1700px;
 	display: grid;
   	grid-template-columns: repeat(2, 1fr);
 }
@@ -105,7 +103,6 @@ main section{
 	display: flex;
 	flex-wrap: wrap;
 	transition: all .3s ease-out;
-	background-image: url('https://media.istockphoto.com/photos/blank-recycled-paper-background-picture-id173931479?k=6&m=173931479&s=170667a&w=0&h=8HKzZpcuGPU7JSzsiRGV_PBoUg9SB4DOq2jFrBUT4FA=');
 }
 .caption_uno_img{
 	width: 35%;
@@ -170,7 +167,6 @@ main section{
 	justify-content: center;
 	flex-wrap: wrap;
 	padding-top: 1em;
-	background-image: url('https://media.istockphoto.com/photos/blank-recycled-paper-background-picture-id173931479?k=6&m=173931479&s=170667a&w=0&h=8HKzZpcuGPU7JSzsiRGV_PBoUg9SB4DOq2jFrBUT4FA=');
 }
 .cont__botones li{
 	text-align: center;
@@ -313,7 +309,6 @@ main section{
   display: flex;
   flex-direction: column;
   padding: 1em;
-  background-image: url('https://media.istockphoto.com/photos/blank-recycled-paper-background-picture-id173931479?k=6&m=173931479&s=170667a&w=0&h=8HKzZpcuGPU7JSzsiRGV_PBoUg9SB4DOq2jFrBUT4FA=');
   position: relative;
   animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -427,7 +422,6 @@ main section{
 }
 .equipo__cara_b{
 	max-width: 100%;
-	background-image: url('https://media.istockphoto.com/photos/blank-recycled-paper-background-picture-id173931479?k=6&m=173931479&s=170667a&w=0&h=8HKzZpcuGPU7JSzsiRGV_PBoUg9SB4DOq2jFrBUT4FA=');
 }
 .equipo__card_content{
 	display: flex;
@@ -468,8 +462,6 @@ main section{
 }
 .aliados{
 	width: 100%;
-	background-image: url('https://media.istockphoto.com/photos/blank-recycled-paper-background-picture-id173931479?k=6&m=173931479&s=170667a&w=0&h=8HKzZpcuGPU7JSzsiRGV_PBoUg9SB4DOq2jFrBUT4FA=');
-	margin-top: 1em;
 	padding: 2em;
 	display: flex;
 	justify-content: center;

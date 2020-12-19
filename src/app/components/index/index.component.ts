@@ -83,20 +83,20 @@ export class IndexComponent implements OnInit {
         {
           nombre: 'Natali Aristizábal Lancheros',
           cargo: 'Directora y Fundadora',
-          texto: 'Ecóloga de la Pontificia Universidad Javeriana (Colombia) con Maestría en Ambiente y Sociedad de la Universidad Estadual de Goiás (Brasil); con experiencia en trabajo con comunidades en áreas rurales a nivel nacional e internacional en la implementación de proyectos, alternativas económicas sostenibles, investigación y en la academia; desde organizaciones no gubernamentales, organizaciones de base y centros de investigación, entre otros. Acompaña los procesos fortaleciendo desde el enfoque diferencial, de género y de acción sin daño, y desde la interdisciplinaridad.',
-          foto: 'user_woman.png',
+          texto: 'Ecóloga de la Pontificia Universidad Javeriana (Colombia) con Maestría en Ambiente y Sociedad de la Universidad Estadual de Goiás (Brasil); con experiencia en trabajo con comunidades en áreas rurales a nivel nacional e internacional en la implementación de proyectos, alternativas económicas sostenibles, investigación y en la academia; desde organizaciones no gubernamentales, organizaciones de base y centros de investigación, entre otros. Acompaña los procesos fortaleciendo desde el enfoque diferencial, de género y de acción sin daño, y desde la interdisciplinaridad.',
+          foto: 'user_uno.png',
         },
         {
           nombre: 'Deissy Catalina Aristizábal Lancheros',
           cargo: 'Subdirectora y Cofundadora',
-          texto: 'Psicóloga-Pontificia universidad Javeriana (Colombia). Magister en abuso de mujeres, niñas, niños y adolescentes - London Metropolitan University (Inglaterra). Especialista en psicología jurídica y forense- Universidad Santo Tomas. Terapeuta Gestalt integrativa- Transformación Humana. Tiene experiencia en atención e intervención terapéutica a personas víctimas del conflicto armado, adolescentes vinculados al sistema de responsabilidad penal para adolescentes, violencia de género y abuso sexual. Experta en procesos de asesoría en derechos sexuales y reproductivos y salud sexual y reproductiva.',
-          foto: 'user_woman.png',
+          texto: 'Psicóloga-Pontificia universidad Javeriana (Colombia). Magister en abuso de mujeres, niñas, niños y adolescentes - London Metropolitan University (Inglaterra). Especialista en psicología jurídica y forense- Universidad Santo Tomas. Terapeuta Gestalt integrativa- Transformación Humana. Tiene experiencia en atención e intervención terapéutica a personas víctimas del conflicto armado, adolescentes vinculados al sistema de responsabilidad penal para adolescentes, violencia de género y abuso sexual. Experta en procesos de asesoría en derechos sexuales y reproductivos y salud sexual y reproductiva.',
+          foto: 'user_dos.png',
         },
         {
           nombre: 'Johana Rincón Lozano',
           cargo: 'Coordinadora de programas y proyectos',
-          texto: 'Ecóloga - Pontificia Universidad Javeriana (Colombia) con Maestría en Ecology and Microbial Biodiversity – Universidad de Kaiserslautern (Alemania). Tiene expe- riencia en manejo y análisis de muestras biológicas para la determinación de la biodiversidad filogenética y como los patrones de cambio de los ecosistemas que influyen la distribución de las especies. Conocimientos sobre conservación y uso del paisaje a través de herra- mientas de información geográfica.',
-          foto: 'user_woman.png',
+          texto: 'Ecóloga - Pontificia Universidad Javeriana (Colombia) con Maestría en Ecology and Microbial Biodiversity – Universidad de Kaiserslautern (Alemania). Tiene experiencia en manejo y análisis de muestras biológicas para la determinación de la biodiversidad filogenética y como los patrones de cambio de los ecosistemas que influyen la distribución de las especies. Conocimientos sobre conservación y uso del paisaje a través de herramientas de información geográfica.',
+          foto: 'user_tres.png',
         }
       ];
       var personaEquipo = $('.equipo__card_content figure');
